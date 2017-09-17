@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imgEvento"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEvento"
+            android:text="Evento"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/txtLugar"
+            android:text="Lugar:"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textEncargado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encargado:"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción:"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

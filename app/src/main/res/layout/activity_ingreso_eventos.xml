@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese Nombre de Evento:"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/NombreEvento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Ingrese el Lugar del Evento:"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/LugarEvento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Ingrese el encargado del Evento:"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/EncargadoEvento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Ingrese la fecha de Evento:"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/FechaEvento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Ingrese la descripción del Evento:"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/DescripcionEvento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Ingrese los requisitos del evento:"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/RequisitoEvento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="3dp"/>
+
+        <Button
+            android:id="@+id/BtnGuardar"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Guardar"
+            android:background="#FF0000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

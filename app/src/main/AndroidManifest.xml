@@ -9,22 +9,26 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_eventos"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_eventos"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".View.LoginActivity"
-            android:label="@string/app_name">
-        </activity>
-        <activity android:name=".SplashScreen" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:label="Login" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name=".adapter_eventos" />
+        <activity android:name=".IngresoEventos"
+            android:label="Ingreso Eventos"></activity>
     </application>
 
 </manifest>
