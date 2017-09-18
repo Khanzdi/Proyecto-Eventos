@@ -6,7 +6,7 @@
     android:weightSum="3">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="3">
@@ -24,7 +24,7 @@
         <EditText
             android:id="@+id/NombreEvento"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textSize="17dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
@@ -32,7 +32,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:text="Ingrese el Lugar del Evento:"
             android:textSize="17dp"
             android:layout_marginStart="20dp"/>
@@ -40,7 +40,7 @@
         <EditText
             android:id="@+id/LugarEvento"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textSize="17dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
@@ -48,7 +48,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:text="Ingrese el encargado del Evento:"
             android:textSize="17dp"
             android:layout_marginStart="20dp"/>
@@ -56,7 +56,7 @@
         <EditText
             android:id="@+id/EncargadoEvento"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textSize="17dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
@@ -64,7 +64,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:text="Ingrese la fecha de Evento:"
             android:textSize="17dp"
             android:layout_marginStart="20dp"/>
@@ -72,7 +72,7 @@
         <EditText
             android:id="@+id/FechaEvento"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textSize="17dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
@@ -80,7 +80,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:text="Ingrese la descripción del Evento:"
             android:textSize="17dp"
             android:layout_marginStart="20dp"/>
@@ -88,7 +88,7 @@
         <EditText
             android:id="@+id/DescripcionEvento"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textSize="17dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
@@ -96,7 +96,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:text="Ingrese los requisitos del evento:"
             android:textSize="17dp"
             android:layout_marginStart="20dp"/>
@@ -104,7 +104,7 @@
         <EditText
             android:id="@+id/RequisitoEvento"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textSize="17dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
