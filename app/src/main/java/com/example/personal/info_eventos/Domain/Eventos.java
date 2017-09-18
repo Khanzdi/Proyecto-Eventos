@@ -3,18 +3,13 @@ package com.example.personal.info_eventos.Domain;
 import android.media.Image;
 
 import java.util.Date;
-import java.util.List;
 
-/**
- * Created by Personal on 11/09/2017.
- */
+/** * Created by Personal on 11/09/2017. */
 
 public class Eventos {
     private String nombreevento, encargado, requisitos, descripcion, lugar;
     private Date fecha;
     private Image imagen;
-
-
 
     public Eventos(String nombreevento, String lugar, String requisitos, String descripcion, String encargado, Date fecha, Image imagen) {
         this.setName(nombreevento);
@@ -29,23 +24,23 @@ public class Eventos {
     public String getName() {
         return nombreevento;
     }
-
     public void setName(String nombreevento) {
         this.nombreevento = nombreevento;
     }
+
     public String getLugar() {
         return lugar;
     }
-
     public void setLugar(String lugar) {
         this.lugar = lugar;
     }
+
     public Date getFecha(){return fecha; }
     public void setFecha(Date fecha){
         this.fecha= fecha;
     }
-    public Image getImagen(){return imagen;}
 
+    public Image getImagen(){return imagen;}
     public void setImagen(Image imagen) {
         this.imagen = imagen;
     }
@@ -58,7 +53,6 @@ public class Eventos {
     public String getRequisitos() {
         return requisitos;
     }
-
     public void setRequisitos(String requisitos) {
         this.requisitos = requisitos;
     }
@@ -66,7 +60,6 @@ public class Eventos {
     public String getDescripcion() {
         return descripcion;
     }
-
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
