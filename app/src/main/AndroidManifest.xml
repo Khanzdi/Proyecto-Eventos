@@ -24,6 +24,8 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <activity android:name=".View.LandingActivity"></activity>
+
             </intent-filter>
         </activity>
         <activity android:name=".adapter_eventos" />
